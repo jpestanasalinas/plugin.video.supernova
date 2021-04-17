@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.addon.id" name="Your Add-on" version="1.2.3" provider-name="You">
+  <requires>
+    <import addon="xbmc.python" version="2.25.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Supernova</summary>
+    <description lang="en_GB">The new Kodi add-on</description>
+    <disclaimer lang="en_GB">
+      The author does not own or host any content found within this Addon.
+      The author is not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.
+    </disclaimer>
+    <language>en el es de fi fr he hr it nl pt ro sk</language>
+    <platform>all</platform>
+    <license>GNU General Public License v3.0</license>
+    <source>https://github.com/jpestanasalinas/plugin.video.supernova</source>
+    <assets>
+        <icon>resources/icon.png</icon>
+        <fanart>resources/fanart.jpeg</fanart>
+    </assets>
+  </extension>
+</addon>
