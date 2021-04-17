@@ -1,8 +1,8 @@
 import xbmc
-from resources.lib import settings
+from resources.site_packages.supernova import settings
 
 
-def debug(message):
+def log(message):
     if __is_log_enabled():
         xbmc.log("SUPERNOVA: " + message)
 

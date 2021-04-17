@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <settings>
 	<setting label="Habilitar debug" type="bool" id="debug" default="false"></setting>
+	<setting label="Buffer timeout" id="buffer_timeout" type="slider" option="int" range="10,5,600" default="60" />
+	<setting label="Preload timeout" id="preload_timeout" type="slider" option="int" range="1,1,120" default="1" />
+
+	<setting label="No molestar" id="do_not_disturb" type="bool" default="false" />
 </settings>

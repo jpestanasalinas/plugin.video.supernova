@@ -2,6 +2,7 @@
 <addon id="plugin.addon.supernova" name="Supernova" version="0.0.1" provider-name="jpestanasalinas">
   <requires>
     <import addon="xbmc.addon" version="16.0.0" />
+    <import addon="script.module.kodi-six" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="addon.py">
     <provides>video</provides>
